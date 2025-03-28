@@ -12,17 +12,6 @@
 
 ---
 
-## 📌 Table of Contents  
-🔹 [Introduction](#-introduction)  
-🔹 [Topics Covered](#-topics-covered)  
-🔹 [How to Use](#-how-to-use)  
-🔹 [Getting Started](#-getting-started)  
-🔹 [Contributions](#-contributions)  
-🔹 [Contributors](#-contributors)  
-🔹 [Stay Connected](#-stay-connected)  
-🔹 [License](#-license)  
-
----
 
 ## 📖 Introduction  
 This repository is designed to **strengthen your DSA skills** through structured practice. Whether you're preparing for coding interviews or just honing your competitive programming skills, this is the right place for you! 💡
