@@ -1,8 +1,7 @@
-﻿# DSA Coding Questions
 <p align="center">
   <img src="https://img.shields.io/badge/DSA-Practice-blueviolet?style=for-the-badge" alt="DSA Practice">
-  <img src="https://img.shields.io/github/stars/Sonu-Dutta/DSA-Coding-Questions?style=social" alt="GitHub stars">
-  <img src="https://img.shields.io/github/forks/Sonu-Dutta/DSA-Coding-Questions?style=social" alt="GitHub forks">
+<!--   <img src="https://img.shields.io/github/stars/Sonu-Dutta/DSA-Coding-Questions?style=social" alt="GitHub stars">
+  <img src="https://img.shields.io/github/forks/Sonu-Dutta/DSA-Coding-Questions?style=social" alt="GitHub forks"> -->
 </p>
 
 <h1 align="center">🚀 DSA Practice Questions</h1>
