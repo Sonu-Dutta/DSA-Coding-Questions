@@ -1,17 +1,18 @@
+
 def isValid(s):
     stack = []
-    mapping = {')': '(', '}': '{', ']': '['}
+    mapping = {")": "(", "}": "{", "]": "["}
 
     for char in s:
-        if char in mapping:
-            top = stack.pop() if stack else '#'
-            if mapping[char] != top:
-                return False
-        else:
+        if char in mapping.values():
             stack.append(char)
+            # print(stack)
+        elif char in mapping.keys():
+            if not stack or mapping[char] != stack.pop():
+                return False
 
     return not stack
 
 
 print(isValid("({[]})"))
-print(isValid("({[})"))
+# print(isValid("({[})"))
