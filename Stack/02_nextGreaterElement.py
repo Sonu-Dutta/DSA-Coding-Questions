@@ -11,6 +11,5 @@ def nextGreaterElement(arr):
     
     return res
 
-# Example usage:
 arr = [4, 5, 2, 10, 8]
 print(nextGreaterElement(arr))  # Output: [5, 10, 10, -1, -1]
