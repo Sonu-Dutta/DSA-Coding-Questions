@@ -7,4 +7,4 @@ def removeElement(arr, val):
     return k
 
 
-print(removeElement([0, 1, 2, 2, 1, 0, 4, 2], 2))
+print(removeElement([10, 21, 2, 2, 19, 0, 4, 2], 2))
