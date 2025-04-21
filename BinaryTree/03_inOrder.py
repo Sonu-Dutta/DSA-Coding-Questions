@@ -1,3 +1,4 @@
+
 class TreeNode:
     def __init__(self, val=0, left=None, right=None):
         self.val = val
@@ -6,18 +7,19 @@ class TreeNode:
 
 
 class Solution:
-    def preOrder(self, root: TreeNode):
-        result = []
+    def inOrder(self, root: TreeNode):
+        res = []
 
         def dfs(node):
             if not node:
                 return
-            result.append(node.val)
+
             dfs(node.left)
+            res.append(node.val)
             dfs(node.right)
 
         dfs(root)
-        return result
+        return res
 
 
 #         1
@@ -30,4 +32,4 @@ root.left = TreeNode(2, TreeNode(4), TreeNode(5))
 root.right = TreeNode(3)
 
 sol = Solution()
-print(sol.preOrder(root))
+print(sol.inOrder(root))
