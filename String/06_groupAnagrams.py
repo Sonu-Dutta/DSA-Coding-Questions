@@ -8,10 +8,10 @@ class Solution:
         for word in strs:
             key = ''.join(sorted(word))
             anagramMap[key].append(word)
-
+        # print(anagramMap)
         return list(anagramMap.values())
 
 
 sol = Solution()
 strs = ["eat", "tea", "tan", "ate", "nat", "bat"]
-sol.groupAnagrams(strs)
+print(sol.groupAnagrams(strs))
