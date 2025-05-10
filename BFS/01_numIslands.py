@@ -12,6 +12,7 @@ class Solution:
             queue = deque()
             queue.append((i, j))
             grid[i][j] = -1
+
             while queue:
                 x, y = queue.popleft()
 
