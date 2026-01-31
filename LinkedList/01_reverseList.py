@@ -11,7 +11,7 @@ def reverseList(head):
         curr.next = prev
         prev = curr
         curr = next_node
-    return prev
+    return prev  
 
 
 def printList(head):

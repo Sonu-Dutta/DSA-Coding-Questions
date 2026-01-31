@@ -5,22 +5,20 @@ class ListNode:
 
 
 def mergeTwoLists(list1, list2):
-    curr = dummy = ListNode()
-    while list1 and list2:
-        if list1.val < list2.val:
-            curr.next = list1
-            curr = curr.next
-            list1 = list1.next
-        else:
-            curr.next = list2
-            curr = curr.next
-            list2 = list2.next
-    if list1 or list2:
-        if list1:
-            curr.next = list1
-        else:
-            curr.next = list2
-    return dummy.next
+    res = ListNode()
+    if list1 == None:
+        return list2
+    if list2 == None:
+        return list1
+
+    if list1.val < list2.val:
+        res = list1
+        res.next = mergeTwoLists(list1.next, list2)
+
+    else:
+        res = list2
+        res.next = mergeTwoLists(list1, list2.next)
+    return res
 
 
 def printList(head):
